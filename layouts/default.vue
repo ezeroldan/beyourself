@@ -39,7 +39,8 @@
 
         <footer class="border-top">
             <div class="container">
-                <div class="row justify-content-between align-items-center row-cols-2 row-cols-sm-2 row-cols-md-4 row-cols-lg-5 py-3">
+                <div
+                    class="row justify-content-between align-items-center row-cols-2 row-cols-sm-2 row-cols-md-4 row-cols-lg-5 py-3">
 
                     <div class="col mb-3">
                         <ul class="nav flex-column">
@@ -52,21 +53,22 @@
                             <li class="nav-item mb-2">
                                 <NuxtLink class="nav-link p-0" to="/talleres">Talleres</NuxtLink>
                             </li>
-                        <li class="nav-item mb-2">
-                            <NuxtLink class="nav-link p-0" to="/testimonios">Testimonios</NuxtLink>
-                        </li>
-                        <li class="nav-item">
-                            <NuxtLink class="nav-link p-0" to="/terminos">Terminos & Condiciones</NuxtLink>
-                        </li>
-                    </ul>
-                </div>
+                            <li class="nav-item mb-2">
+                                <NuxtLink class="nav-link p-0" to="/testimonios">Testimonios</NuxtLink>
+                            </li>
+                            <li class="nav-item">
+                                <NuxtLink class="nav-link p-0" to="/terminos">Terminos & Condiciones</NuxtLink>
+                            </li>
+                        </ul>
+                    </div>
 
-                <div class="col mb-3">
-                    <img src="~/assets/images/logo.jpeg" class="img-fluid">
-                </div>
+                    <div class="col mb-3">
+                        <img src="~/assets/images/logo.jpeg" class="img-fluid">
+                    </div>
 
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
-</main></template>
+    </main>
+</template>
