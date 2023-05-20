@@ -6,13 +6,18 @@ $navbar-nav-link-padding-x: 1rem;
 
 $font-family-sans-serif: "Lato", sans-serif;
 
+$display-font-sizes: (
+  1: 7rem,
+  2: 5.5rem,
+  3: 5rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem
+);
+
 @import "bootstrap/scss/bootstrap.scss";
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pinyon+Script&display=swap");
 
 .text-cursive {
   font-family: "Pinyon Script", cursive;
-}
-
-header {
-  background: rgb(255 255 255 / 90%);
 }

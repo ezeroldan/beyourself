@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-white pt-5 pb-3">
+    <section class="bg-white py-5">
         <div class="container">
             <h1 class="display-2 mb-3 text-center">TALLERES</h1>
             <p class="lead mb-5">
