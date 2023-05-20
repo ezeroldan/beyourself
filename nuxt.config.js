@@ -24,11 +24,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~/assets/css/bootstrap.css',
-    '~/assets/css/lineicons.css',
-    '~/assets/css/tiny-slider.css',
-    '~/assets/css/glightbox.min.css',
-    '~/assets/css/style.css'
+    '~/assets/css/style.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
